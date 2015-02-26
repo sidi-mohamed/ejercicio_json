@@ -7,7 +7,10 @@ doc= json.load(fich)
 for x in doc["asociacions"]["asociacion"]:
 	print x["nombre"]
 
+#2. programa que muestre el total de de asociaciones 
 
+for x in doc["asociacions"]["asociacion"]:
+	print len(x["nombre"])
 
 
 
